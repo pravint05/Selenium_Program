@@ -1,0 +1,14 @@
+
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="login" />
+				<include name="logout" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testng.Grouping_of_TestCases" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

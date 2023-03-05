@@ -1,0 +1,21 @@
+
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="testng.Disable_TestCases_From_TestSuite1">
+				<methods>
+					<exclude name="m3" />		//disable test case from test suite by using exclude
+				</methods>
+			</class>   
+
+			<class name="testng.Disable_TestCases_From_TestSuite2">
+				<methods>
+					<include name="m5" />
+					<include name="m6" />		//disable test case from test suite by using include
+					<include name="m7" />
+				</methods>
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

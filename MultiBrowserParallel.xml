@@ -1,0 +1,21 @@
+
+<suite name="Suite" parallel="tests">
+	<test name="Test_Firefox">
+		<parameter name="browserName" value="firefox" />
+		<classes>
+			<class name="testng.MultiBrowser" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test_Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="testng.MultiBrowser" />
+		</classes>
+	</test> <!-- Test -->
+
+	
+
+
+
+</suite> <!-- Suite -->
